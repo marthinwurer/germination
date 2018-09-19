@@ -1,3 +1,7 @@
 name: Germination
-main: org.marthinwurer.germination.Germination
 version: 0.1-SNAPSHOT
+main: org.marthinwurer.germination.Germination
+api-version: 1.13
+description: This plugin makes saplings plant themselves!
+author: marthinwurer
+website: github.com/marthinwurer/germination
