@@ -6,6 +6,10 @@ public final class Germination extends JavaPlugin {
     @Override
     public void onEnable() {
         getLogger().info("onEnable has been invoked!");
+
+        getLogger().info("Registering Listener!");
+        getServer().getPluginManager().registerEvents(new SaplingDespawnListener(), this);
+        getLogger().info("Listener registered!!");
     }
 
     @Override
